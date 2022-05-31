@@ -1,0 +1,70 @@
+header {
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4em;
+    padding-top: 3.3125em;
+    padding-bottom: 3.3125em;
+}
+
+.heading {
+    color: var(--hclr);
+    font-family: var(--ff);
+    font-weight: var(--lfw);
+    font-size: var(--lfs);
+}
+
+input {
+    background-color:  #18244A;
+    font-weight: var(--lfw);
+    font-size: var(--lfs);
+    color: var(--bclr);
+    width: 7em;
+    height: max-content;
+    padding: 0.7em;
+    border: 0.2px solid grey;
+   
+   
+}
+button {
+    background: #05795A;
+    color: var(--bclr);
+    border: none;
+    min-width: 9%;
+    padding: 0.5em;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+main {
+    margin-top: 2.375em;
+    margin-bottom: 0.625em;
+    background: var(--bclr);
+}
+
+.subheading {
+    color: var(--shclr);
+    font-family: var(--ff);
+    font-size: var(--sfs);
+    font-weight: var(--mfw);
+    text-align: center;
+    margin-bottom: 0.3125em;
+}
+
+.text {
+    font-family: var(--ff);
+    font-weight: var(--sfw);
+    font-size: var(--sfs);
+    color: var(--tclr);
+    text-align: center;
+    margin-bottom: 1.6875em;
+}
+

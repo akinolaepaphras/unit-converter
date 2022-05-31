@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --ff:  'Inter', sans-serif;
+    --sfw: 400;
+    --mfw: 600;
+    --lfw: 800;
+    --sfs: 14px;
+    --lfs: 22px;
+
+    --hclr:  #FFFFFF;
+    --bclr: #FBF7EE;
+    --shclr: #1A1921;
+    --tclr: #4E4E4E;
+}
+
+body {
+    margin: 0;
+}
