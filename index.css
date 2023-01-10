@@ -1,5 +1,5 @@
 header {
-    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    background: #000814;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@ header {
 }
 
 input {
-    background-color:  #18244A;
+    background-color:  #a2d6f9;
     font-weight: var(--lfw);
     font-size: var(--lfs);
     color: var(--bclr);
@@ -28,12 +28,12 @@ input {
    
 }
 button {
-    background: #05795A;
+    background: #a2d6f9;
     color: var(--bclr);
     border: none;
     min-width: 9%;
     padding: 0.5em;
-    border-radius: 20px;
+    border-radius: 10px;
     text-align: center;
     cursor: pointer;
     transition: transform 200ms ease-in-out;
@@ -47,7 +47,7 @@ button:hover {
 main {
     margin-top: 2.375em;
     margin-bottom: 0.625em;
-    background: var(--bclr);
+    background: #a2d6f9;
 }
 
 .subheading {

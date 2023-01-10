@@ -29,12 +29,6 @@ console.log(numberBeingConverted);
 
     let kilo2 = numberBeingConverted / 2.205
     document.getElementById("kilo2").textContent = kilo2.toFixed(3)
-    
-    
-    
-    
-    
-
-    
+  
 
 }

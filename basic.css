@@ -5,19 +5,20 @@
 }
 
 :root {
-    --ff:  'Inter', sans-serif;
+    --ff:  'Space Grotesk', sans-serif;
     --sfw: 400;
     --mfw: 600;
     --lfw: 800;
     --sfs: 14px;
-    --lfs: 22px;
+    --lfs: 24px;
 
-    --hclr:  #FFFFFF;
-    --bclr: #FBF7EE;
+    --hclr:  #a2d6f9;
+    --bclr: #000814;
     --shclr: #1A1921;
     --tclr: #4E4E4E;
 }
 
 body {
     margin: 0;
+    background: #a2d6f9;
 }
