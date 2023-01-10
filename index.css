@@ -22,7 +22,7 @@ input {
     color: var(--bclr);
     width: 7em;
     height: max-content;
-    padding: 0.7em;
+    padding: 0.7em 1em;
     border: 0.2px solid grey;
    
    
@@ -30,6 +30,8 @@ input {
 button {
     background: #a2d6f9;
     color: var(--bclr);
+    font-weight: var(--mfw);
+    font-size: 1rem;
     border: none;
     min-width: 9%;
     padding: 0.5em;
